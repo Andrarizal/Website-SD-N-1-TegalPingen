@@ -13,20 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/home', function () {
+    return view('home', [       
+        "title" => "Home"           
+   ]);
 });
 
 Route::get('/profil', function () {
-    return view('Profil');
+    return view('Profil', [       
+        "title" => "Profil"     
+    ]);
 });
 
 Route::get('/sarpras', function () {
-    return view('sarpras');
+    return view('sarpras', [       
+        "title" => "Sarana & Prasarana"     
+    ]);
 });
 
-Route::get('/prestasi', function () {
-    return view('Prestasi');
+Route::get('/prestasilain', function () {
+    return view('prestasilain', [       
+        "title" => "Prestasi"     
+    ]);
 });
 
 Route::get('/berita', function () {
@@ -34,21 +42,36 @@ Route::get('/berita', function () {
 });
 
 Route::get('/galeri', function () {
-    return view('Galeri');
+    return view('Galeri', [       
+        "title" => "Galeri"     
+    ]);
 });
 
 Route::get('/about', function () {
-    return view('About');
+    return view('About', [       
+        "title" => "About"     
+    ]);
 });
 
 Route::get('/kontak', function () {
     return view('Kontak');
 });
 
-Route::get('/visi', function () {
-    return view('visi');
-});
 
 Route::get('/tatib', function () {
-    return view('tatib');
+    return view('tatib', [       
+        "title" => "Tata Tertib"     
+    ]);
+});
+
+Route::get('/visi', function () {
+    return view('visi', [       
+        "title" => "Visi & Misi"     
+    ]);
+});
+
+Route::get('/guru', function () {
+    return view('guru', [       
+        "title" => "Tenaga Pendidik"     
+    ]);
 });
