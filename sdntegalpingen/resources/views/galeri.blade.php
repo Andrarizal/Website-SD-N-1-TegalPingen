@@ -169,10 +169,10 @@
                         </div>
                     </div>
                     <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/WhatsApp Image 2021-11-26 at 1.45.16 AM.jpeg" alt="">
+                        <img class="foto-guru" src="assets/img/WhatsApp Image 2022-01-12 at 6.47.12 PM.jpeg" alt="">
                         <div class="section-item-caption">
                             <a href="">
-                                <h5>TESTINGGG</h5>
+                                <h5>Kegiatan KBM</h5>
                             </a>
                             <a href="">
                                 <h6>SD N 1 TegalPingen</h6>
@@ -180,46 +180,21 @@
                         </div>
                     </div>
                     <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/WhatsApp Image 2021-11-26 at 1.45.16 AM.jpeg" alt="">
+                        <img class="foto-guru" src="assets/img/WhatsApp Image 2022-01-12 at 6.47.10 PM.jpeg" alt="">
                         <div class="section-item-caption">
                             <a href="">
-                                <h5>TESSSSSSSSSSSS</h5>
+                                <h5>Foto Guru dan Siswa</h5>
                             </a>
                             <a href="">
                                 <h6>SD N 1 TegalPingen</h6>
                             </a>
                         </div>
                     </div>
-
-                <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/WhatsApp Image 2021-11-26 at 1.45.16 AM.jpeg" alt="">
-                        <div class="section-item-caption">
-                            <a href="">
-                                <h5>TESSSF</h5>
-                            </a>
-                            <a href="">
-                                <h6>SD N 1 TegalPingen</h6>
-                            </a>
-                        </div>
-                    </div>
-
                     <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/WhatsApp Image 2021-11-26 at 1.45.16 AM.jpeg" alt="">
+                        <img class="foto-guru" src="assets/img/WhatsApp Image 2022-01-12 at 5.30.12 PM.jpeg" alt="">
                         <div class="section-item-caption">
                             <a href="">
-                                <h5>Halaman Sekolahhhsnj</h5>
-                            </a>
-                            <a href="">
-                                <h6>SD N 1 TegalPingen</h6>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/WhatsApp Image 2021-11-26 at 1.45.16 AM.jpeg" alt="">
-                        <div class="section-item-caption">
-                            <a href="">
-                                <h5>Halaman Seksjhsholah</h5>
+                                <h5>Kegiatan Vaksin</h5>
                             </a>
                             <a href="">
                                 <h6>SD N 1 TegalPingen</h6>

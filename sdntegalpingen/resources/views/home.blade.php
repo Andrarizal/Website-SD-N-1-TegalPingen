@@ -113,7 +113,7 @@
                     </li>
 					 <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                               aria-expanded="false">About</a>
+                            aria-expanded="false">About</a>
 						<div class="dropdown-menu">
 							<a href="/tatib" class="dropdown-item"id="test">Tata Tertib</a>
 							<a href="/pengumuman" class="dropdown-item"id="test">Pengumuman Penting</a>
@@ -132,7 +132,7 @@
         <div class="owl-carousel" id="slider-hero">
             <div class="slider-item">
                 <div class="slider-item-img">
-                    <img src="assets/img/banner-siswa.jpeg" alt="">
+                    <img src="assets/img/WhatsApp Image 2022-01-12 at 6.47.10 PM.jpeg" alt="">
                 </div>
                 <div class="slider-item-content">
                     <h2>Penerimaan peserta didik baru TA 2022/2023 Telah Dibuka!</h2>
@@ -264,7 +264,7 @@
                 <div id="slider-tools-1"></div>
                 <div class="owl-carousel" id="tenaga-pendidik-slider">
                     <div class="section-item-slider">
-                        <img class="foto-guru" src="assets/img/foto-guru-1.jpg" alt="">
+                        <img class="foto-guru" src="assets/img/adam guru.png" alt="">
                         <div class="section-item-caption">
                             <h5>Hesti Rohmawati, S.Pd.SD</h5>
                             <h6>Guru Kelas 1</h6>
@@ -318,7 +318,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="section-thumbnail">
-                            <img src="lomba17an.jpeg" alt="">
+                            <img src="WhatsApp Image 2022-01-12 at 5.30.12 PM.jpeg" alt="">
                             <div class="tanggal">
                                 <span class="tgl">17</span>
                                 <span class="tgl-2">Agustus 2021</span>
@@ -326,9 +326,9 @@
                         </div>
                         <div class="section-content">
                             <a href="">
-                                <h3> Lomba Memperingati Hari Kemerdekaan.</h3>
+                                <h3> Kegiatan Vaksin Covid-19.</h3>
                             </a>
-                            <p>Juara 1 Balap karung <a href="" class="more">[..]</a></p>
+                            <p>Kegiatan Vaksin Covid-19 dilakukan sebagai upaya pencegahan dari Virus Covid-19 <a href="" class="more">[..]</a></p>
                         </div>
                         <div class="section-meta">
                             <a href="">Kegiatan</a>
@@ -483,7 +483,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container text-center">
-                <h6>Hak Cipta dilindungi. @ 2021 <a href="">andradev.inc</a></h6>
+                <h6>Hak Cipta dilindungi. @ 2021 <a href="">PINOPSKY.inc</a></h6>
             </div>
         </div>
 
