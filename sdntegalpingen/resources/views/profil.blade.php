@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SD N 1 TegalPingen</title>
+    <title>SD N 1 TegalPingen | {{ $title }} </title>
 	 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/icon/css/all.min.css">
@@ -63,7 +63,7 @@
             </div>
         </div>
 </header>
-    <!-- section menu-->
+      <!-- section menu-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-biru">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-nav"
@@ -73,50 +73,50 @@
 
             <div class="collapse navbar-collapse" id="my-nav">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Beranda<span class="sr-only">(current)</span></a>
+                    <li class="nav-item {{ ($title === "Home") ? 'active' : ''  }} ">
+                        <a class="nav-link" href="/home">Beranda<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown active">
+                    <li class="nav-item dropdown {{ ($title === "Profil") ? 'active' : ''  }} ">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Profil</a>
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Sejarah</a>
-                            <a href="/visi" class="dropdown-item">Visi & Misi</a>
+                            <a href="/profil" class="dropdown-item "id="test">Sejarah</a>
+                            <a href="/visi" class="dropdown-item"id="test">Visi & Misi</a>
                             <a href="/guru" class="dropdown-item"id="test">Tenaga Pendidik</a>
                             
                         </div>
                     </li>
-					<li class="nav-item dropdown">
+                    <li class="nav-item dropdown {{ ($title === "Sarana & Prasarana") ? 'active' : ''  }} ">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Sarana & Prasarana</a>
                         <div class="dropdown-menu">
-                            <a href="/sarpras" class="dropdown-item">Sarana Infrastruktur</a>
+                            <a href="/sarpras" class="dropdown-item"id="test">Sarana Infrastruktur</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Prestasi</a>
+                    <li class="nav-item {{ ($title === "Prestasi") ? 'active' : ''  }} ">
+                        <a class="nav-link" href="#prestasi">Prestasi</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Berita</a>
                         <div class="dropdown-menu">
-                            <a href="/" class="dropdown-item">Berita Sekolah</a>
+                            <a href="/" class="dropdown-item"id="test">Berita Sekolah</a>
                         </div>
                     </li>
-					<li class="nav-item dropdown">
+                    <li class="nav-item dropdown {{ ($title === "Galeri") ? 'active' : ''  }} ">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Galeri</a>
                         <div class="dropdown-menu">
-                            <a href="/galeri" class="dropdown-item">Galeri Foto</a>
+                            <a href="/galeri" class="dropdown-item"id="test">Galeri Foto</a>
                         </div>
                     </li>
-					 <li class="nav-item dropdown">
+                     <li class="nav-item dropdown {{ ($title === "About") ? 'active' : ''  }} ">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">About</a>
-						<div class="dropdown-menu">
-							<a href="/tatib" class="dropdown-item">Tata Tertib</a>
-							<a href="/pengumuman" class="dropdown-item">Pengumuman Penting</a>
-						</div>
+                               aria-expanded="false">About</a>
+                        <div class="dropdown-menu">
+                            <a href="/tatib" class="dropdown-item"id="test">Tata Tertib</a>
+                            <a href="/pengumuman" class="dropdown-item"id="test">Pengumuman Penting</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#footer">Kontak</a>
@@ -125,6 +125,7 @@
             </div>
         </div>
     </nav>
+
   <section id="sambutan">
         <div class="container">
             <h2>SD N 1 TegalPingen</h2>
