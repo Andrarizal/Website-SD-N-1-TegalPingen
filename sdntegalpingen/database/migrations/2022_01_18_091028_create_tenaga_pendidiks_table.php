@@ -15,6 +15,10 @@ class CreateTenagaPendidiksTable extends Migration
     {
         Schema::create('tenaga_pendidiks', function (Blueprint $table) {
             $table->id();
+            $table->string('nama_GuruKaryawan');
+            $table->string('image');
+            $table->string('carosel');
+            $table->string('role');
             $table->timestamps();
         });
     }

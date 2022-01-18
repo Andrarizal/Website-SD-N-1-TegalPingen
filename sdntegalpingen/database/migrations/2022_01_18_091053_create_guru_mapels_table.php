@@ -15,6 +15,8 @@ class CreateGuruMapelsTable extends Migration
     {
         Schema::create('guru_mapels', function (Blueprint $table) {
             $table->id();
+            $table->int('id_guru');
+            $table->int('id_mapel');
             $table->timestamps();
         });
     }
