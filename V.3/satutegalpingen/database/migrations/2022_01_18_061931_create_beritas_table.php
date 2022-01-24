@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateBeritasTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('beritas', function (Blueprint $table) {
+            $table->integer('id');
+            $table->string('title', 500);
+            $table->string('deskripsi', 1000);
+            $table->string('image', 500);
+            $table->string('carosel', 5);
+            $table->string('penting', 7);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('beritas');
+    }
+}
